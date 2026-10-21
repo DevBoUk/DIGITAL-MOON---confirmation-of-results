@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef" \
+"../../../../di_moon_axi_lite_slave_lite_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef" \
+"../../../../tb_di_moon_axi_lite.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

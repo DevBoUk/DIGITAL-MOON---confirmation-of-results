@@ -1,0 +1,14 @@
+# Ignore temporary compiler build artifacts
+*.obj
+*.o
+*.dir/
+*.log
+*.jou
+.Xil/
+
+# Ignore Vitis and Vivado auto-generated build/run outputs
+build/
+CMakeFiles/
+*.gen/
+*.runs/
+*.ip_user_files/

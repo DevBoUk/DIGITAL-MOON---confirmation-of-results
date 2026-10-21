@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_microblaze_0_0/sim/di_moon_bd_microblaze_0_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_dlmb_v10_0/sim/di_moon_bd_dlmb_v10_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_ilmb_v10_0/sim/di_moon_bd_ilmb_v10_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_dlmb_bram_if_cntlr_0/sim/di_moon_bd_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_ilmb_bram_if_cntlr_0/sim/di_moon_bd_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_mdm_1_0/sim/di_moon_bd_mdm_1_0.vhd" \
+"../../../../di_moon.ip_user_files/bd/di_moon_bd/ip/di_moon_bd_rst_clk_wiz_1_100M_0/sim/di_moon_bd_rst_clk_wiz_1_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

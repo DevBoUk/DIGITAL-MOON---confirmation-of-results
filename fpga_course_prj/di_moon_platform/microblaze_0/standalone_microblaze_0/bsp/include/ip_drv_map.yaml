@@ -1,0 +1,6 @@
+di_moon_axi_lite_sla_0:
+- di_moon_axi_lite_slave_lite_v1_0_S00_AXI
+- None
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

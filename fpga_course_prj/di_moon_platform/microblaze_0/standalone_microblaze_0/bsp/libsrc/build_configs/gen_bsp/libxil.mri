@@ -1,0 +1,4 @@
+create libxil.a
+addlib C:/Users/avgor/Desktop/git/fpga_course_prj/di_moon_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end
